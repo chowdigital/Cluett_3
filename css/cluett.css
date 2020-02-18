@@ -12,6 +12,38 @@ body {
   background-repeat: no-repeat;
   object-fit: cover; }
 
+.catagoryPic {
+  width: 300px;
+  height: 500px; }
+
+section {
+  padding: 4em 6em; }
+
+.mainCat {
+  overflow: auto; }
+  .mainCat h1 {
+    text-align: center; }
+
+.contentBox {
+  text-align: center; }
+
+.catagoryPic {
+  margin: auto; }
+
+@media only screen and (min-width: 600px) {
+  .contentBox {
+    width: 50%;
+    height: auto;
+    float: left; }
+
+  .ourWork {
+    text-align: center; } }
+.ourWork {
+  background-color: #E69225; }
+
+.mainCat {
+  background-color: #D6D6D6; }
+
 @media only screen and (max-width: 600px) {
   #masthead {
     display: flex;

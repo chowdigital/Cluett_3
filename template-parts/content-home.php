@@ -19,8 +19,6 @@
 	</header><!-- .entry-header -->
 
 
-
-
 	<div class="entry-content">
 		<?php
 		the_content();
@@ -32,6 +30,31 @@
 		?>
 	</div><!-- .entry-content -->
 
+		<section class="mainCat">
+			<H1>BESPOKE FURNATURE</H1>
+			<div class="contentBox">
+				<div class="catagoryPic" style="background-image:url('<?php the_post_thumbnail_url(); ?>');">
+				</div>
+				<h2>Fitted Furnature</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sint exercitationem debitis, porro, ipsa molestias consequuntur at illum quis non.</p>
+			</div>
+			<div class="contentBox">
+				<div class="catagoryPic" style="background-image:url('<?php the_post_thumbnail_url(); ?>');">
+				</div>
+				<h2>Freestanding Furnature</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sint exercitationem debitis, porro, ipsa molestias consequuntur at illum quis non.</p>
+			</div>
+		</section>
+
+		
+	<section class="ourWork">
+		<h2>Our Work</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eaque architecto quaerat excepturi dolore! Recusandae, asperiores, esse! Optio rerum animi, earum modi, illum cumque consequuntur porro reprehenderit nisi ut error. Voluptas veritatis quo ipsa accusantium quisquam accusamus deleniti velit. Quo.</p>
+		<button>View Projects</button>
+	</section>
+
+
+		<!-- .custom-content -->
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
 			<?php
